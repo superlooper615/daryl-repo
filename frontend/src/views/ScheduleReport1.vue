@@ -5,16 +5,14 @@
     border
     style="width: 100%"
     :row-class-name="tableRowClassName">
-    <!-- <el-table-column
+    <el-table-column
       :render-header="renderHeader"
       fixed
       prop="employeeId"
       label="ID"
       width="180">
-    </el-table-column> -->
+    </el-table-column>
     <el-table-column
-      :render-header="renderHeader"
-      fixed
       prop="firstName"
       label="First Name"
       width="180">
