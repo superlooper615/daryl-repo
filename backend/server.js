@@ -14,7 +14,7 @@ import babelPolyfill from 'babel-polyfill';
 
 
 var app = express();
-const PORT = process.env.PORT || '8080'
+const PORT = process.env.PORT || '80'
 
 app.set("port", PORT);
 
