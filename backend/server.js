@@ -17,6 +17,12 @@ var app = express();
 const PORT = process.env.PORT || '8080'
 
 app.set("port", PORT);
+
+server.listen(PORT, () => {
+  console.log("App is running on port " + port);
+});
+
+
 // Body Parser
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json())
