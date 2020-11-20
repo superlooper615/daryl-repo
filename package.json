@@ -28,7 +28,7 @@
     "passport-local": "^1.0.0",
     "path": "^0.12.7",
     "sequelize": "^4.37.6",
-    “heroku-postbuild”: “cd frontend && ./build.sh”
+    "heroku-postbuild": "cd frontend && ./build.sh"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
