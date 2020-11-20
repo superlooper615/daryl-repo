@@ -15,6 +15,14 @@ import babelPolyfill from 'babel-polyfill';
 
 var app = express();
 
+
+const express = require('express')
+const PORT = process.env.PORT || 5000 
+
+express()
+  .listen(PORT, () => console.log(`Listening on ${ PORT }`))
+
+
 // Body Parser
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json())
