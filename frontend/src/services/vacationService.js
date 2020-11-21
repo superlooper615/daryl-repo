@@ -1,5 +1,5 @@
 const axios = require("axios");
-const URL = "http://localhost:8081/";
+const URL = "http://ec2-3-138-187-24.us-east-2.compute.amazonaws.com:80";
 // import http from "../http-common";
 
 class vacationService {
