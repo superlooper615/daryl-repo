@@ -13,7 +13,7 @@ Vue.use(ElementUI);
 
 //import VueAxios from 'axios';
 Vue.prototype.$http=axios.create({
-  baseURL:'http://ec2-3-138-187-24.us-east-2.compute.amazonaws.com:80'
+  baseURL:'http://ec2-3-138-187-24.us-east-2.compute.amazonaws.com:8081'
 })
 
 
